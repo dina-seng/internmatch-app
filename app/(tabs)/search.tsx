@@ -38,9 +38,10 @@ export default function SearchScreen() {
 
   const handleApply = (id: string) => {
     const internship = INTERNSHIPS.find((i) => i.id === id);
+    if (!internship) return;
     Alert.alert(
-      "Application Submitted! 🎉",
-      `Your application to ${internship?.company} has been submitted.`,
+      "Application Submitted! ",
+      `Your application to ${internship.company} for ${internship.role} has been submitted.`,
       [{ text: "Great!", style: "default" }]
     );
   };

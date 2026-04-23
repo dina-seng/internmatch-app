@@ -52,7 +52,7 @@ export default function HomeScreen() {
   const handleApply = (id: string) => {
     const internship = INTERNSHIPS.find((i) => i.id === id);
     Alert.alert(
-      "Application Submitted! 🎉",
+      "Application Submitted! ",
       `Your application to ${internship?.company} for ${internship?.role} has been submitted.`,
       [{ text: "Great!", style: "default" }]
     );

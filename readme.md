@@ -43,11 +43,11 @@ internmatch-mobile/
 │   │   ├── _layout.tsx        # Bottom tab setup
 │   │   ├── index.tsx          # Home screen
 │   │   ├── search.tsx         # Search screen
-│   │   └── profile.tsx        # Profile screeN
+│   │   └── profile.tsx        # Profile screen
 |   | _layout.tsx
 |   | modal.tsx
 ├── components/
-│   |--FeaturedCard.tsx
+│   └── FeaturedCard.tsx 
 │   └── FilterChip.tsx
 │   └── InternshipCard.tsx       
 │   └── SettingsRow.tsx

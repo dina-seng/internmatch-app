@@ -21,7 +21,7 @@ function TabIcon({ name, focused, label }: TabIconProps) {
         color={focused ? "#3b82f6" : "#64748b"}
       />
       <Text
-        className={`text-xs mt-0.5 font-medium ${
+        className={`text-xs mt-0.5 font-small ${
           focused ? "text-blue-500" : "text-slate-500"
         }`}
       >
@@ -41,9 +41,9 @@ export default function TabsLayout() {
           backgroundColor: "#0f172a",
           borderTopColor: "#1e293b",
           borderTopWidth: 1,
-          height: 72,
-          paddingBottom: 8,
-          paddingTop: 8,
+          height: 70,
+          paddingBottom: 6,
+          paddingTop: 6,
         },
         tabBarActiveTintColor: "#3b82f6",
         tabBarInactiveTintColor: "#64748b",

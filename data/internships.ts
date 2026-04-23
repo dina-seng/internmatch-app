@@ -1,22 +1,22 @@
 export interface Internship {
     id: string;
-company: string;
-role: string;
-location: string;
-type: "Remote" | "Hybrid" | "On-site";
-duration: string;
-stipend: string;
-logo: string;
-tags: string[];
-postedDaysAgo: number;
-companyColor: string;
+    company: string;
+    role: string;
+    location: string;
+    type: "Remote" | "Hybrid" | "On-site";
+    duration: string;
+    stipend: string;
+    logo: string;
+    tags: string[];
+    postedDaysAgo: number;
+    companyColor: string;
 }
 
 export const INTERNSHIPS: Internship[] = [
 {
 id: "1",
 company: "Stripe",
-role: "Software Engineer Intern",
+role: "Software Engineer Internship",
 location: "San Francisco, CA",
 type: "Hybrid",
 duration: "12 weeks",

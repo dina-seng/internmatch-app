@@ -24,9 +24,9 @@ const USER = {
 };
 
 const STATS = [
-  { value: "12", label: "Applied" },
-  { value: "4", label: "Shortlisted" },
-  { value: "2", label: "Interviews" },
+  { id: "applied", value: "12", label: "Applied" },
+  { id: "shortlisted", value: "4", label: "Shortlisted" },
+  { id: "interviews", value: "2", label: "Interviews" },
 ];
 
 const SKILLS = ["React Native", "TypeScript", "Python", "Figma", "SQL"];
