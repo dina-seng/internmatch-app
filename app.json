@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "my-expo-app",
-    "slug": "my-expo-app",
+    "name": "InternMatch",
+    "slug": "intern-match",
     "version": "1.0.0",
-    "scheme": "internmatch", // This is important for deep linking/routing
+    "scheme": "internmatch", 
     "plugins": [
       "expo-router"
     ],
@@ -29,7 +29,8 @@
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": ["**/*"],
-    "ios": {
+    "ios": { 
+      "bundleIdentifier": "com.sengdina.internmatch",
       "supportsTablet": true
     },
     "android": {
